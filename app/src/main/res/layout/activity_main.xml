@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.lyl.breathview.BreathView
+                android:id="@+id/bv_1"
+                android:layout_width="50dp"
+                android:layout_height="300dp"
+                app:autoRun="false"
+                app:bgColor="@color/colorPrimary"
+                app:breathColor="@color/colorAccent" />
+
+            <com.lyl.breathview.BreathView
+                android:layout_width="50dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="40dp"
+                app:breathTime="3000"
+                app:progress="30"
+                app:runMode="START_IN_RIGHT_BOTTOM"
+                app:sleepTime="ST30" />
+        </LinearLayout>
+
+
+        <com.lyl.breathview.BreathView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            app:breathTime="3000"
+            app:sleepTime="ST25" />
+
+        <com.lyl.breathview.BreathView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            app:runMode="START_IN_RIGHT_BOTTOM" />
+
+        <com.lyl.breathview.BreathView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            app:bgColor="@color/colorPrimary" />
+    </LinearLayout>
+</ScrollView>
