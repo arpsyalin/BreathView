@@ -18,6 +18,4 @@ Add it in your root build.gradle at the end of repositories:
 		implementation 'com.github.arpsyalin:BreathView:1.0'
 	}
   
-![image](https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif)   
-![image](https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif?raw=true)  
-<image src='https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif'/>
+![image](https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif)  
