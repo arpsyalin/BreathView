@@ -2,6 +2,8 @@
 一款简单的呼吸控件
 
 Add it in your root build.gradle at the end of repositories:
+
+
 	allprojects {
 		repositories {
 			...
@@ -11,8 +13,9 @@ Add it in your root build.gradle at the end of repositories:
   
   Add the dependency
   
-  dependencies {
-			implementation 'com.github.arpsyalin:BreathView:1.0'
+  
+  	dependencies {
+		implementation 'com.github.arpsyalin:BreathView:1.0'
 	}
   
   
