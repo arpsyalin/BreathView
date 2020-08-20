@@ -165,7 +165,7 @@ public class BreathView extends View {
     /**
      * 设置进度
      *
-     * @param progress
+     * @param progress 进度
      */
     public void setProgress(int progress) {
         mProgress = progress;
