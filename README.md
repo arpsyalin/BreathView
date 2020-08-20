@@ -20,4 +20,4 @@ Add it in your root build.gradle at the end of repositories:
   
 ![image](https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif)   
 ![image](https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif?raw=true)  
-<image>https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif</image>
+<image src='https://github.com/arpsyalin/BreathView/blob/master/images/1597930210639257.gif'/>
